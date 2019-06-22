@@ -2,7 +2,7 @@
   "name": "zev-tiny-observable",
   "version": "0.0.3",
   "description": "tiny-observable",
-  "main": "index.js",
+  "main": "dist/TinyObservable.js",
   "scripts": {
     "build": "rollup ./src/TinyObservable.js --file dist/tinyObservable.js --format iife --name 'TinyObservable'",
     "dev": "rollup ./src/TinyObservable.js --file dist/tinyObservable.js --format iife --name 'TinyObservable' --watch",
