@@ -1,0 +1,27 @@
+{
+  "name": "tiny-observable",
+  "version": "0.0.1",
+  "description": "tiny-observable",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup ./src/TinyObservable.js --file dist/tinyObservable.js --format iife --name 'TinyObservable'",
+    "dev": "rollup ./src/TinyObservable.js --file dist/tinyObservable.js --format iife --name 'TinyObservable' --watch",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillyDesignr/tiny-observable.git"
+  },
+  "author": "Jeremy Zevin",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/phillyDesignr/tiny-observable/issues"
+  },
+  "homepage": "https://github.com/phillyDesignr/tiny-observable#readme",
+  "devDependencies": {
+    "rollup": "^1.16.2"
+  }
+}
