@@ -1,6 +1,6 @@
 {
   "name": "zev-tiny-observable",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "tiny observable",
   "main": "dist/tinyObservable.js",
   "private": false,
