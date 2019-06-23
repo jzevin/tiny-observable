@@ -4,7 +4,7 @@
   "description": "tiny-observable",
   "main": "dist/TinyObservable.js",
   "scripts": {
-    "build": "rollup ./src/TinyObservable.js --file dist/TinyObservable.js --format iife --name 'TinyObservable'",
+    "build": "rollup ./src/TinyObservable.js --file dist/TinyObservable.js --format iife --name 'TinyObservable' && terser dist/TinyObservable.js --compress --mangle --output dist/TinyObservable.min.js",
     "dev": "rollup ./src/TinyObservable.js --file dist/TinyObservable.js --format iife --name 'TinyObservable' --watch",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/phillyDesignr/tiny-observable#readme",
   "devDependencies": {
-    "rollup": "^1.16.2"
-  }
+    "rollup": "^1.16.2",
+    "terser": "^4.0.0"
+  },
+  "dependencies": {}
 }
