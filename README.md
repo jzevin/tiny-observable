@@ -5,14 +5,20 @@ ___
 ### Install
 `npm install zev-tiny-observable`
 ### Usage
+Browser
+```html
+<script src="https://unpkg.com/zev-tiny-observable/dist/TinyObservable.min.js"></script>
+```
+
+### API
+### Static Contructor Methods
+#### new TinyObservable()
+example:
 ```javascript
 const obs = new TinyObservable();
 const sub = obs.subscribe(r => console.log(r));
 obs.next('Hi!');
 ```
-
-### API
-### Static Contructor Methods
 #### TinyObservable.fromRaf()
 example:
 ```javascript
