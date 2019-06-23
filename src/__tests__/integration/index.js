@@ -12,3 +12,7 @@ const tmr = setInterval(() => {
         clearInterval(tmr);
     }
 }, 100);
+
+
+const obs2 = TinyObservable.fromRaf();
+console.log(obs2);
