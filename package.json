@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "tiny-observable",
   "main": "dist/TinyObservable.js",
+  "private": false,
+  "source": "src/TinyObservable.js",
+  "module": "dist/TinyObservable.js",
   "scripts": {
     "build": "rollup ./src/TinyObservable.js --file dist/TinyObservable.js --format iife --name 'TinyObservable' && terser dist/TinyObservable.js --compress --mangle --output dist/TinyObservable.min.js",
     "dev": "rollup ./src/TinyObservable.js --file dist/TinyObservable.js --format iife --name 'TinyObservable' --watch",
