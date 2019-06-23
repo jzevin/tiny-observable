@@ -7,7 +7,8 @@
   "source": "src/TinyObservable.js",
   "module": "dist/tinyObservable.js",
   "scripts": {
-    "build": "rollup --config rollup.config.js && terser dist/tinyObservable.js --compress --mangle --output dist/tinyObservable.min.js",
+    "build": "rollup --config rollup.config.js && npm run compress",
+    "compress": "terser dist/tinyObservable.js --compress --mangle --output dist/tinyObservable.min.js",
     "dev": "rollup --config rollup.config.js --watch",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",

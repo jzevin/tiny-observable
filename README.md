@@ -7,7 +7,11 @@ ___
 ### Usage
 Browser
 ```html
-<script src="https://unpkg.com/zev-tiny-observable/dist/TinyObservable.min.js"></script>
+<script src="https://unpkg.com/zev-tiny-observable/dist/tinyObservable.min.js"></script>
+```
+module import
+```html
+import TinyObservable from 'zev-tiny-observable';
 ```
 
 ### API
