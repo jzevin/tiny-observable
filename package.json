@@ -19,7 +19,7 @@
     "url": "git+https://github.com/phillyDesignr/tiny-observable.git"
   },
   "author": "Jeremy Zevin",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/phillyDesignr/tiny-observable/issues"
   },
